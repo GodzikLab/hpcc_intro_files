@@ -5,8 +5,8 @@
 
 # Print current date
 date
-# sleep for 60 seconds
-/bin/sleep 60
+# sleep for 45 seconds
+/bin/sleep 45
 
 # Print name of node
 hostname
