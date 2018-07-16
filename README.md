@@ -67,18 +67,14 @@ It asks to run on the short partition or the batch partition or the intel partit
 Once the resources are allocated the slurm will run the rest of the submission script.
 In this case its the commands:
 
-```bash
-date
-
-hostname
-
-env
-```
+* date
+* hostname
+* env
 
 Then the job completes.
 
 
-To view/edit this file run the following"
+To view/edit this file run the following
 
 ```bash
 
