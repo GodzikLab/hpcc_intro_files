@@ -59,10 +59,13 @@ sbatch slurm_script_simple.sh
 ### slurm_script_full_sbatch_options.sh
 
 This script has more submission options enabled.
-It requests 2 cpus, 2gb of RAM, one node for 15 min.
-It stores its outout in a file named output-full-options-%j.out. The %j gets replaced with the jobid of the job.
-It also sends a email when the jobs start and stops.
-It asks to run on the short partition or the batch partition or the intel partition whichever it can do first.
+* 2 cpus
+* 2 gb of RAM
+* 1 node
+* 15 min. run time
+* stores out as output-full-options-%j.out. The %j gets replaced with the jobid of the job.
+* it sends a email when the jobs starts and when it stops.
+* it requests to run on the short partition or the batch partition or the intel partition whichever it can do first.
 
 Once the resources are allocated the slurm will run the rest of the submission script.
 In this case its the commands:
