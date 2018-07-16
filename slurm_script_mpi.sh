@@ -1,9 +1,9 @@
 #!/bin/bash -l
 
 #SBATCH --nodes=4
-#SBATCH --ntasks=200
-#SBATCH --output=mutinode.out
+#SBATCH --ntasks=8
 #SBATCH --job-name="mpi test"
+#SBATCH --output=output-mpi-%j.out
 #SBATCH -p batch,short,intel
 
 #SBATCH --time=00:01:00

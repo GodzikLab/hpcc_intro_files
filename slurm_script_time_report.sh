@@ -2,6 +2,7 @@
 
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
+#SBATCH --output=output-timer-%j.out
 #SBATCH --job-name="timer"
 #SBATCH --time=00:01:00
 #SBATCH -p short,batch

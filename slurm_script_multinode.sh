@@ -1,10 +1,11 @@
 #!/bin/bash -l
 
 #SBATCH --nodes=2
-#SBATCH --ntasks=24
-#SBATCH --ntasks-per-node=12
-#SBATCH --output=multinode.out
+#SBATCH --ntasks=8
+#SBATCH --ntasks-per-node=4
+#SBATCH --output=output-multinode-%j.out
 #SBATCH --job-name="multinode test"
+#SBATCH -p short,batch,intel
 
 #SBATCH --time=00:00:10
 

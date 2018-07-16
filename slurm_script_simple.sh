@@ -2,6 +2,8 @@
 
 #SBATCH --ntasks=1
 #SBATCH --time=00:00:60
+#SBATCH --output=output-simple-%j.out
+#SBATCH -p short,batch,intel
 
 # Print current date
 date

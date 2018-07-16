@@ -3,9 +3,11 @@
 
 #SBATCH --nodes=1
 #SBATCH --ntasks=2
-#SBATCH --mem=100gbG
-#SBATCH --time=00-00:00:30
-#SBATCH --job-name="highmem"
+#SBATCH --mem=100G
+#SBATCH --time=00-00:00:40
+#SBATCH --output=output-highmem-%j.out
+#SBATCH --job-name="highmem-test"
 #SBATCH -p highmem
 
-/bin/sleep 30
+
+free -g
