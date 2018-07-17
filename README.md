@@ -85,8 +85,7 @@ nano slurm_script_full_sbatch_options.sh
 
 ```
 
-
-Run this job with following command:
+Run/submit this job with following command:
 
 ```bash
 
